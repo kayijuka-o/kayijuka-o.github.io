@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e5e7eb;
+}
+
+/* Navigation */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(2,6,23,0.9);
+  padding: 15px;
+  z-index: 1000;
+  text-align: center;
+}
+nav a {
+  color: #38bdf8;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #0ea5e9;
+}
+
+/* Sections */
+section {
+  min-height: 100vh;
+  padding: 120px 20px 60px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Background images for sections */
+.home-bg { background-image: url('images/hacker-bg.jpg'); }
+.arduino-bg { background-image: url('images/arduino-bg.jpg'); }
+.contact-bg { background-image: url('images/contact-bg.jpg'); }
+
+/* Overlay style */
+.overlay {
+  background: rgba(2,6,23,0.85);
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+h1, h2 {
+  color: #38bdf8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Skills section */
+.skills span {
+  display: inline-block;
+  background: #020617;
+  padding: 8px 12px;
+  margin: 6px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Projects */
+.projects { margin-top: 20px; }
+.project-card {
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.project-card h3 { margin-top: 0; }
+.project-img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: #38bdf8;
+  color: #020617;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #0ea5e9;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: #64748b;
+}
