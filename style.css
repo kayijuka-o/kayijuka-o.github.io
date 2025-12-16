@@ -1,107 +1,80 @@
-/* Global Styles */
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #e5e7eb;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kayijuka Olivier | Web & IoT Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-/* Navigation */
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: rgba(2,6,23,0.9);
-  padding: 15px;
-  z-index: 1000;
-  text-align: center;
-}
-nav a {
-  color: #38bdf8;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-nav a:hover {
-  color: #0ea5e9;
-}
+<nav>
+  <a href="index.html">Home</a>
+  <a href="skills.html">Skills</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
-/* Sections */
-section {
-  min-height: 100vh;
-  padding: 120px 20px 60px;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+<!-- PAGE 1: HOME -->
+<section id="home" class="home-bg">
+  <div class="overlay">
+    <h1>Kayijuka Olivier</h1>
+    <p><strong>Web Developer | IoT & Embedded Systems | Ethical Hacker</strong></p>
+    <p>I am driven by curiosity and innovation, blending creativity with technology to create impactful web and IoT solutions. I explore embedded systems, ethical hacking, and computer engineering to inspire and empower others.</p>
+  </div>
+</section>
 
-/* Background images for sections */
-.home-bg { background-image: url('images/hacker-bg.jpg'); }
-.arduino-bg { background-image: url('images/arduino-bg.jpg'); }
-.contact-bg { background-image: url('images/contact-bg.jpg'); }
+<!-- PAGE 2: SKILLS -->
+<section id="skills" class="arduino-bg">
+  <div class="overlay">
+    <h2>Technical Skills & Projects</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Git & GitHub</span>
+      <span>IoT Systems</span>
+      <span>Embedded Systems</span>
+      <span>Arduino</span>
+      <span>NodeMCU / ESP8266</span>
+      <span>Computer Engineering</span>
+      <span>Ethical Hacking</span>
+      <span>Cybersecurity Awareness</span>
+    </div>
 
-/* Overlay style */
-.overlay {
-  background: rgba(2,6,23,0.85);
-  max-width: 900px;
-  padding: 40px;
-  border-radius: 15px;
-}
+    <div class="projects">
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>Professional GitHub Pages portfolio demonstrating web development and IoT projects.</p>
+      </div>
+      <div class="project-card">
+        <h3>IoT Smart System</h3>
+        <p>Embedded system project using Arduino and NodeMCU to automate tasks and monitor environments.</p>
+      </div>
+      <div class="project-card">
+        <h3>Ethical Hacking Practice Labs</h3>
+        <p>Hands-on experience in ethical hacking and cybersecurity fundamentals.</p>
+        <img class="project-img" src="images/hacking-project.jpg" alt="Hacking illustration">
+      </div>
+    </div>
+  </div>
+</section>
 
-h1, h2 {
-  color: #38bdf8;
-  text-align: center;
-  margin-bottom: 20px;
-}
+<!-- PAGE 3: CONTACT -->
+<section id="contact" class="contact-bg">
+  <div class="overlay">
+    <h2>Contact & Booking</h2>
+    <p>Email: <em>olivierkayijuka3@gmail.com</em></p>
+    <p>Phone / WhatsApp: <em>+250 795 590 655</em></p>
+    <p>GitHub: <a href="https://github.com/kayijuka-o" target="_blank">github.com/kayijuka-o</a></p>
+    <p>Book a project or consultation directly via Instagram:</p>
+    <a class="btn" href="https://instagram.com/olivier__ka" target="_blank">Book via Instagram</a>
+    <p>I am passionate about collaborating on innovative projects in web development, IoT, embedded systems, and cybersecurity, aiming to inspire and empower through technology.</p>
+  </div>
+</section>
 
-/* Skills section */
-.skills span {
-  display: inline-block;
-  background: #020617;
-  padding: 8px 12px;
-  margin: 6px;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
+<footer>
+  <p>© 2025 Kayijuka Olivier | Personal Website</p>
+</footer>
 
-/* Projects */
-.projects { margin-top: 20px; }
-.project-card {
-  background: #020617;
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-.project-card h3 { margin-top: 0; }
-.project-img {
-  max-width: 100%;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-/* Buttons */
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 15px;
-  background: #38bdf8;
-  color: #020617;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-.btn:hover {
-  background: #0ea5e9;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #020617;
-  color: #64748b;
-}
+</body>
+</html>
